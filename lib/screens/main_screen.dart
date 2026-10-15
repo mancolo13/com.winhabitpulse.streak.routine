@@ -16,9 +16,9 @@ class _MainScreenState extends State<MainScreen> {
   int _currentIndex = 0;
 
   final List<Widget> _screens = const [
-    Tab1Screen(),
     Tab2Screen(),
     Tab3Screen(),
+    Tab1Screen(),
     Tab4Screen(),
   ];
 
@@ -52,7 +52,6 @@ class _MainScreenState extends State<MainScreen> {
           selectedIcon: const Icon(Icons.auto_graph, color: AppTheme.primaryColor),
           label: 'Review',
         ),
-
         ],
       ),
     );
